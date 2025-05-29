@@ -1,4 +1,0 @@
-<settings>
-    <category label="Nastavenia"/>
-    <setting id="example_setting" type="text" label="Príklad nastavenia" default="hodnota"/>
-</settings>
