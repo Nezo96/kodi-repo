@@ -23,8 +23,8 @@
        provider-name="Tvoje Meno">
     <extension point="xbmc.addon.repository"
                name="Example Repo"
-               info="https://tvoja-adresa/repo/addons.xml"
-               checksum="https://tvoja-adresa/repo/addons.xml.md5"
+               info="https://nezo96.github.io/kodi-repo/addons.xml"
+               checksum="https://nezo96.github.io/kodi-repo/addons.xml.md5"
                datadir="https://tvoja-adresa/repo/">
         <info compressed="false"/>
         <checksum compressed="false"/>
