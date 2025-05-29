@@ -25,7 +25,7 @@
                name="Example Repo"
                info="https://nezo96.github.io/kodi-repo/addons.xml"
                checksum="https://nezo96.github.io/kodi-repo/addons.xml.md5"
-               datadir="https://tvoja-adresa/repo/">
+               datadir="https://nezo96.github.io/kodi-repo/">
         <info compressed="false"/>
         <checksum compressed="false"/>
         <datadir zip="true"/>
