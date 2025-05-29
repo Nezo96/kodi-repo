@@ -1,0 +1,17 @@
+<addon id="plugin.video.myaddon"
+       name="Moje Video Menu"
+       version="1.0.0"
+       provider-name="Tvoje Meno">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.31.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="sk">Jednoduchý video doplnok s menu a nastaveniami</summary>
+        <description lang="sk">Testovací doplnok pre Kodi s menu a podporou requests.</description>
+        <platform>all</platform>
+    </extension>
+</addon>
