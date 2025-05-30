@@ -1,4 +1,9 @@
 <settings>
-    <category label="Nastavenia"/>
-    <setting id="example_setting" type="text" label="Príklad nastavenia" default="hodnota"/>
+    <category label="Nastavenia">
+        <setting id="username" type="text" label="Meno" default=""/>
+        <setting id="password" type="text" label="Heslo" option="hidden" default=""/>
+        <setting id="language" type="enum" label="Preferovaný jazyk" values="Slovensky|Česky|English|Deutsch" default="0"/>
+        <setting id="fallback_language" type="enum" label="Záložný jazyk" values="Slovensky|Česky|English|Deutsch" default="2"/>
+        <setting id="search_type" type="enum" label="Vyhľadávanie podľa" values="relevance|najnovšie|hodnotenie" default="0" />
+    </category>
 </settings>
